@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Beatriz Medeiros"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-26 07:46:24 "/>
+        <attribute name="created" value="QmVhdHJpeiBNZWRlaXJvcztTRUxNQTsyMDIwLTExLTI2OyIwNzoyNzozOCAiOzMxNDM="/>
+        <attribute name="edited" value="QmVhdHJpeiBNZWRlaXJvcztTRUxNQTsyMDIwLTExLTI2OyIwNzo0NjoyNCAiOzQ7MzI1MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, numero, limite" type="Integer" array="False" size=""/>
+            <assign variable="num" expression="0"/>
+            <assign variable="numero" expression="0"/>
+            <assign variable="limite" expression="90"/>
+            <while expression="numero&lt;=limite">
+                <output expression="&quot;9 x&quot; &amp; num &amp; &quot; :&quot; &amp; numero" newline="True"/>
+                <assign variable="numero" expression="numero+9"/>
+                <assign variable="num" expression="num+1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

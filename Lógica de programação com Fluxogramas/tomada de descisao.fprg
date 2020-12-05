@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Beatriz Medeiros"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-26 05:36:36 "/>
+        <attribute name="created" value="QmVhdHJpeiBNZWRlaXJvcztTRUxNQTsyMDIwLTExLTI2OyIwNToyODowMSAiOzMxMzI="/>
+        <attribute name="edited" value="QmVhdHJpeiBNZWRlaXJvcztTRUxNQTsyMDIwLTExLTI2OyIwNTozNjozNiAiOzE7MzI0Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <input variable="cliente"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <input variable="numero"/>
+                </then>
+                <else>
+                    <output expression="&quot;Desculpe, infelizmente s&#243; emitimos compra para pagamento com CART&#195;O DE CR&#201;DITO&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
